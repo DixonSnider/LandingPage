@@ -1,5 +1,103 @@
+div {
+  font-family: Roboto;
+
+}
 
 
+
+
+.header-container  {
+  background: #1f2937;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 10px 200px;
+}
+
+.header-right{
+  padding: 10px 200px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+    display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px ;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+/*Hero start*/
+.hero-container{
+  background: #1f2937;
+  height: 250px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left{
+
+}
+.hero-header{
+
+}
+.hero-text{
+
+}
+.hero-button{
+
+}
+.hero-right{
+
+}
+
+/*Hero End*/
+
+/*Info Start*/
+.info-container{
+  height: 300px;
+}
+/*Info End*/
+
+/*Qoute Start*/
+.qoute-container{
+  height: 350px;
+  background: #e5e7eb;
+}
+/*Qoute End*/
+
+/*BottomStart*/
+.bottom-container{
+  height: 200px;
+}
+
+/*Bottom End*/
+
+/*Footer Start*/
+.footer {
+  height: 70px;
+  font-size: 18px;
+  background: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Footer End*/
 
 
 
